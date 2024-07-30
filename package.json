@@ -9,7 +9,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "biome": "biome check --error-on-warnings --write",
-    "prettier": "prettier . --write --plugin=prettier-plugin-tailwindcss"
+    "prettier:check": "prettier . --check",
+    "prettier:write": "prettier . --write"
   },
   "dependencies": {
     "@headlessui/react": "^2.1.2",
